@@ -1,0 +1,15 @@
+---
+title: "data import projet"
+output: github_document
+date: "2026-10-07"
+---
+
+```{bash}
+sudo apt-get update
+sudo apt-get install libglpk40
+```
+
+```{bash}
+
+```
+

@@ -1,0 +1,28 @@
+---
+title: "projet article ADM"
+output: github_document
+date: "2026-10-07"
+---
+
+```{r}
+library(dada2)
+library(vegan)
+```
+
+```{r}
+#import des metadonnées
+SraRunTable_metadonnées_article <- read.csv("data/SraRunTable metadonnées article.csv")
+
+```
+
+```{r}
+fnFs <- sort(list.files(path, pattern="_R1_001.fastq", full.names = TRUE))
+fnRs <- sort(list.files(path, pattern="_R2_001.fastq", full.names = TRUE))
+# a modifier pour que ça corresponde au nom de sequence
+
+
+
+
+```
+
+
